@@ -24,7 +24,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 script {
-                    clone("https://github.com/Dileesha28/e-commerce-app-deployment-project.git","main")
+                    clone("https://github.com/Dileesha28/ecommerce-app-deployment-project.git","main")
                 }
             }
         }
